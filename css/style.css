@@ -1,0 +1,55 @@
+body {
+	margin: 0px;
+}
+* {
+	box-sizing: border-box;
+}
+.main {
+	width: 100%;
+	float: left;
+	padding: 30px;
+}
+.container {
+	width: 100%;
+	max-width: 1350px;
+	margin: 0px auto;
+}
+.input_textarea input {
+	width: 400px;
+	display: flex;
+	margin: 15px 0px;
+	padding: 10px 10px;
+}
+.inner_form select {
+	width: 200px;
+	display: block;
+	margin: 20px 0px;
+}
+.inner_form {
+	padding: 50px 50px;
+	background-color: #107d4f;
+	color: #fff;
+	width: 37%;
+	float: left;
+}
+.form_submit {
+	width: 100%;
+	padding: 15px 0px;
+	font-size: 15px;
+	cursor: pointer;
+}
+.data_holder {
+	width: 63%;
+	float: left;
+}
+table {
+	border: 1px solid #000;
+}
+table tr th {
+	border: 1px solid #000;
+	padding: 15px;
+}
+table tr td {
+	border: 1px solid #000;
+	padding: 15px;
+}
